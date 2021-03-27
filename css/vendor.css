@@ -1411,6 +1411,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   object-fit: contain;
 }
 
+.pswp__zoom-wrap .pswp__img{
+  objeckt-fit: contain;
+}
+
 .pswp__zoom-wrap {
   position: absolute;
   width: 100%;
