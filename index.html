@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html class="no-js" lang="slo">
-<head>
-
+  <head>
     <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Portfolio Hana Brce</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- script
     ================================================== -->
@@ -28,39 +33,44 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
 
-</head>
-
-<body id="top">
-
+  <body id="top">
     <div id="preloader">
-        <div id="loader"></div>
+      <div id="loader"></div>
     </div>
 
     <!-- site header
     ================================================== -->
     <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="index.html">
+          <img src="images/logo.svg" alt="Homepage" />
+        </a>
+      </div>
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
-            </a>
-        </div>
+      <nav class="header-nav-wrap">
+        <ul class="header-main-nav">
+          <li class="current">
+            <a class="smoothscroll" href="#intro" title="intro">Domov</a>
+          </li>
+          <!--<li><a class="smoothscroll" href="#services" title="services">Kompetence</a></li>-->
+          <li><a class="smoothscroll" href="#works" title="works">Delo</a></li>
+          <li>
+            <a class="smoothscroll" href="#about" title="about">O meni</a>
+          </li>
+          <li>
+            <a class="smoothscroll" href="#contact" title="contact us"
+              >Kontakt</a
+            >
+          </li>
+        </ul>
 
-        <nav class="header-nav-wrap">
-            <ul class="header-main-nav">
-                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Domov</a></li>
-                <!--<li><a class="smoothscroll" href="#services" title="services">Kompetence</a></li>-->
-                <li><a class="smoothscroll" href="#works" title="works">Delo</a></li>
-                <li><a class="smoothscroll" href="#about" title="about">O meni</a></li>
-                <li><a class="smoothscroll" href="#contact" title="contact us">Kontakt</a></li>	
-            </ul>
-
-            <!--
+        <!--
             <ul class="header-social">
                 <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                 <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -68,316 +78,392 @@
                 <li><a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
             </ul>
             -->
-        </nav>
+      </nav>
 
-        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
+      <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+    </header>
+    <!-- end s-header -->
 
     <!-- intro
     ================================================== -->
     <section id="intro" class="s-intro target-section">
+      <div class="row intro-content">
+        <div class="column large-9 mob-full intro-text">
+          <h3>Živjo, sem Hana Brce</h3>
+          <h1>
+            Študentka grafične<br />
+            in medijske tehnike<br />
+          </h1>
+        </div>
 
-        <div class="row intro-content">
+        <div class="intro-scroll">
+          <a href="#about" class="intro-scroll-link smoothscroll">
+            Več o meni
+          </a>
+        </div>
 
-            <div class="column large-9 mob-full intro-text">
-                <h3>Živjo, sem Hana Brce</h3>
-                <h1>
-                    Študentka grafične<br>
-                    in medijske tehnike<br>
-                </h1>
-            </div>
-
-            <div class="intro-scroll">
-                <a href="#about" class="intro-scroll-link smoothscroll">
-                    Več o meni
-                </a>
-            </div>
-
-            <div class="intro-grid"></div>
-            <div class="intro-pic"></div>
-
-        </div> <!-- end row -->
-
-    </section> <!-- end intro -->
-
+        <div class="intro-grid"></div>
+        <div class="intro-pic"></div>
+      </div>
+      <!-- end row -->
+    </section>
+    <!-- end intro -->
 
     <!-- works
     ================================================== -->
     <section id="works" class="s-works target-section">
+      <div class="row heading-block heading-block--center" data-aos="fade-up">
+        <div class="column large-full">
+          <h2 class="section-heading section-heading--centerbottom">
+            Moje delo
+          </h2>
+          <p class="section-desc">
+            Tukaj je par mojih projektov, ki so nastali v okviru študija ali v
+            mojem prostem času.
+          </p>
+        </div>
+      </div>
+      <!-- end heading-block -->
 
-        <div class="row heading-block heading-block--center" data-aos="fade-up">
-            <div class="column large-full">
-                <h2 class="section-heading section-heading--centerbottom">Moje delo</h2>
-                <p class="section-desc">
-                    Tukaj je par mojih projektov, ki so nastali v okviru študija ali v mojem prostem času.
+      <div class="masonry-wrap">
+        <div class="masonry">
+          <div class="grid-sizer"></div>
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/brosura.jpg"
+                  class="thumb-link"
+                  title="Brošura za kavo"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/brosura.jpg"
+                    srcset="
+                      images/portfolio/brosura.jpg 1x,
+                      images/portfolio/brosura.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
+              </div>
+              <div class="item-folio__text">
+                <h4 class="item-folio__title">Kava</h4>
+                <p class="item-folio__cat">izdelava brošure</p>
+              </div>
+              <div class="item-folio__caption">
+                <p>
+                  V okviru predmeta Tipografski elementi sem ustvarila brošuro
+                  na temo kave.
                 </p>
+              </div>
             </div>
-        </div> <!-- end heading-block -->
+          </div>
+          <!-- end masonry__brick -->
 
-        <div class="masonry-wrap">
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/henica_vzorcnik.jpg"
+                  class="thumb-link"
+                  title="Vzorcnik Henica"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/henica_vzorcnik.jpg"
+                    srcset="
+                      images/portfolio/henica_vzorcnik.jpg 1x,
+                      images/portfolio/henica_vzorcnik.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
+              </div>
 
-            <div class="masonry">
-                <div class="grid-sizer"></div>
-    
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/brosura.jpg" class="thumb-link" title="Brošura za kavo" data-size="1050x700">
-                                <img src="images/portfolio/brosura.jpg" 
-                                     srcset="images/portfolio/brosura.jpg 1x, images/portfolio/brosura.jpg 2x" alt="">
-                            </a>
-                            <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Kava
-                            </h4>
-                            <p class="item-folio__cat">
-                                izdelava brošure
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>V okviru predmeta Tipografski elementi sem ustvarila brošuro na temo kave.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-                
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/henica_vzorcnik.jpg" class="thumb-link" title="Vzorcnik Henica" data-size="1050x700">
-                                <img src="images/portfolio/henica_vzorcnik.jpg" 
-                                     srcset="images/portfolio/henica_vzorcnik.jpg 1x, images/portfolio/henica_vzorcnik.jpg 2x" alt="">
-                            </a>    
-                            <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Henica
-                            </h4>
-                            <p class="item-folio__cat">
-                                izdelava pisave
-                            </p>
-                        </div>
-    
-                        <div class="item-folio__caption">
-                            <p>Izdelala sem svojo pisavo, kjer sem kot navdih uzela obliko pšenice.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/brce_plakat.jpg" class="thumb-link" title="Plakat" data-size="1050x700">
-                                <img src="images/portfolio/brce_plakat.jpg" 
-                                     srcset="images/portfolio/brce_plakat.jpg 1x, images/portfolio/brce_plakat.jpg 2x" alt="">
-                            </a>
-                            <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Pšenični kruh
-                            </h4>
-                            <p class="item-folio__cat">
-                                promocijski plakat
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Izdelala sem plakat za pšenični kruh, kjer sem uporabila svojo fotografijo.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
+              <div class="item-folio__text">
+                <h4 class="item-folio__title">Henica</h4>
+                <p class="item-folio__cat">izdelava pisave</p>
+              </div>
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/vizitka.jpg" class="thumb-link" title="Vizitka" data-size="1050x700">
-                                <img src="images/portfolio/vizitka.jpg"
-                                     srcset="images/portfolio/vizitka.jpg 1x, images/portfolio/vizitka.jpg 2x" alt="">
-                            </a>
-                            <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                KavnoZrno
-                            </h4>
-                            <p class="item-folio__cat">
-                                izdelava vizitke in logo
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>V okviru predmeta Tipografski elementi sem ustvarila logo, ter vizitko za fikcijsko podjetje.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
+              <div class="item-folio__caption">
+                <p>
+                  Izdelala sem svojo pisavo, kjer sem kot navdih uzela obliko
+                  pšenice.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <iframe title="vimeo-player" src="https://player.vimeo.com/video/529677930" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Stress
-                            </h4>
-                            <p class="item-folio__cat">
-                                animacija
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Ustvarila sem kratko animacijo na temo stresa, z pomočjo sošolke Tinkare Žgajnar.</p>
-                        </div>
-                    </div>
-                </div><!-- end masonry__brick --> 
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/brce_plakat.jpg"
+                  class="thumb-link"
+                  title="Plakat"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/brce_plakat.jpg"
+                    srcset="
+                      images/portfolio/brce_plakat.jpg 1x,
+                      images/portfolio/brce_plakat.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
+              </div>
+              <div class="item-folio__text">
+                <h4 class="item-folio__title">Pšenični kruh</h4>
+                <p class="item-folio__cat">promocijski plakat</p>
+              </div>
+              <div class="item-folio__caption">
+                <p>
+                  Izdelala sem plakat za pšenični kruh, kjer sem uporabila svojo
+                  fotografijo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Donut.png" class="thumb-link" title="Doughnut" data-size="1050x700">
-                                <img src="images/portfolio/Donut.png" 
-                                     srcset="images/portfolio/Donut.png 1x, images/portfolio/Donut.png 2x" alt="">
-                            </a>
-                            <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Krof
-                            </h4>
-                            <p class="item-folio__cat">
-                                 probava programa Blender
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>To je bil moj prvi projekt v programu Blender, kjer sem ustvarila krof.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/vizitka.jpg"
+                  class="thumb-link"
+                  title="Vizitka"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/vizitka.jpg"
+                    srcset="
+                      images/portfolio/vizitka.jpg 1x,
+                      images/portfolio/vizitka.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
+              </div>
+              <div class="item-folio__text">
+                <h4 class="item-folio__title">KavnoZrno</h4>
+                <p class="item-folio__cat">izdelava vizitke in logo</p>
+              </div>
+              <div class="item-folio__caption">
+                <p>
+                  V okviru predmeta Tipografski elementi sem ustvarila logo, ter
+                  vizitko za fikcijsko podjetje.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/kavarna.jpg" class="thumb-link" title="KIŠD kavarna" data-size="1050x700">
-                                <img src="images/portfolio/kavarna.jpg"
-                                     srcset="images/portfolio/kavarna.jpg 1x, images/portfolio/kavarna.jpg 2x" alt="">
-                            </a>
-                            <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                KIŠD kavarna
-                            </h4>
-                            <p class="item-folio__cat">
-                                FB naslovnica dogodka
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Za Izolski klub študentov in dijakov sem ustvarila naslovnico, ki so jo uporabili za njihov dogodek.</p>
-                        </div>
-                    </div>
-                </div><!-- end masonry__brick --> 
-            </div> <!-- end masonry -->
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/Donut.png"
+                  class="thumb-link"
+                  title="Doughnut"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/Donut.png"
+                    srcset="
+                      images/portfolio/Donut.png 1x,
+                      images/portfolio/Donut.png 2x
+                    "
+                    alt=""
+                  />
+                </a>
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
+              </div>
+              <div class="item-folio__text">
+                <h4 class="item-folio__title">Krof</h4>
+                <p class="item-folio__cat">probava programa Blender</p>
+              </div>
+              <div class="item-folio__caption">
+                <p>
+                  To je bil moj prvi projekt v programu Blender, kjer sem
+                  ustvarila krof.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
 
-        </div> <!-- end masonry-wrap -->
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/kavarna.jpg"
+                  class="thumb-link"
+                  title="KIŠD kavarna"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/kavarna.jpg"
+                    srcset="
+                      images/portfolio/kavarna.jpg 1x,
+                      images/portfolio/kavarna.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
+              </div>
+              <div class="item-folio__text">
+                <h4 class="item-folio__title">KIŠD kavarna</h4>
+                <p class="item-folio__cat">FB naslovnica dogodka</p>
+              </div>
+              <div class="item-folio__caption">
+                <p>
+                  Za Izolski klub študentov in dijakov sem ustvarila naslovnico,
+                  ki so jo uporabili za njihov dogodek.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
 
-    </section> <!-- end s-work -->
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <div
+                  href="https://player.vimeo.com/video/529677930"
+                  class="thumb-link video-container"
+                  title="Vzorcnik Henica"
+                  data-size="1050x700"
+                >
+                  <iframe
+                    title="vimeo-player"
+                    src="https://player.vimeo.com/video/529677930"
+                    width="640"
+                    height="360"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>-->
+              </div>
 
+              <div class="item-folio__text">
+                <h4 class="item-folio__title">Stress</h4>
+                <p class="item-folio__cat">animacija</p>
+              </div>
 
-        <!-- about
+              <div class="item-folio__caption">
+                <p>
+                  Izdelala sem animacijo na termo stresa in pravilnega dihanja, z sošolko Tinkaro Žgajnar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry -->
+      </div>
+      <!-- end masonry-wrap -->
+    </section>
+    <!-- end s-work -->
+
+    <!-- about
     ================================================== -->
     <section id="about" class="s-about target-section">
+      <div class="about-me">
+        <div class="row heading-block" data-aos="fade-up">
+          <div class="column large-full">
+            <h2 class="section-heading">O meni</h2>
+          </div>
+        </div>
 
-        <div class="about-me">
+        <div class="row about-me__content" data-aos="fade-up">
+          <div class="column large-full about-me__text">
+            <p class="lead">
+              Sem Hana Brce, študentka na Naravoslovnotehniški fakulteti v
+              Ljubljani, smer Grafična in medijska tehnika. Zanima me predvsem
+              grafično oblikovanje.
+            </p>
 
-            <div class="row heading-block" data-aos="fade-up">
-                <div class="column large-full">
-                    <h2 class="section-heading">O meni</h2>
-                </div>
-            </div>
+            <p>
+              Na Srednji šoli za oblikovanje in fotografijo v Ljubljani, kjer
+              sem obiskovala smer Fotografski tehnik sem pridobila znanje na
+              področju fotografije.
+            </p>
 
-            <div class="row about-me__content" data-aos="fade-up">
-                <div class="column large-full about-me__text">
-                    <p class="lead">
-                        Sem Hana Brce, študentka na Naravoslovnotehniški fakulteti v Ljubljani, 
-                        smer Grafična in medijska tehnika. Zanima me predvsem grafično oblikovanje.
-                    </p>
+            <p>
+              Nato pa sem se na fakulteti začela bolj zanimati za oblikovanje.
+              Zanima me oblikovanje spletnih strani, aplikacij, izdelava
+              animacij, promocijskega materiala ipd.
+            </p>
 
-                    <p>
-                        Na Srednji šoli za oblikovanje in fotografijo v Ljubljani, kjer 
-                        sem obiskovala smer Fotografski tehnik sem pridobila znanje na 
-                        področju fotografije.
-                    </p>
+            <p>
+              Sem vešča v standardnih programih za oblikovanje kot so Adobe
+              Photoshop, InDesign, Illustrator, Animate, vendar se občasno učim
+              tudi drugih programov in si prizadevam vsak dan izboljšati svoje
+              znanje.
+            </p>
 
-                   <p>
-                        Nato pa sem se na fakulteti začela bolj zanimati za oblikovanje. 
-                        Zanima me oblikovanje spletnih strani, aplikacij, izdelava animacij, 
-                        promocijskega materiala ipd.
-                    </p>
+            <p>
+              Moje delo mi je zelo v veselje in se vedno rada naučim kaj novega.
+            </p>
+          </div>
+        </div>
 
-                    <p>
-                        Sem vešča v standardnih programih za oblikovanje kot so Adobe Photoshop,
-                        InDesign, Illustrator, Animate, vendar se občasno učim tudi drugih programov
-                        in si prizadevam vsak dan izboljšati svoje znanje.
-                    </p>
-                        
-                    <p>   
-                        Moje delo mi je zelo v veselje in se vedno rada naučim kaj novega.
-                    </p>
-                </div>
-            </div>
-    
-            <div class="row about-me__buttons">
-                <!--<div class="column large-half tab-full" data-aos="fade-up">
+        <div class="row about-me__buttons">
+          <!--<div class="column large-half tab-full" data-aos="fade-up">
                     <a href="#0" class="btn btn--stroke full-width">Hire Me</a>
                 </div> -->
-                <!--<div class="column large-half tab-full" data-aos="fade-up"> -->
-                    <a href="images/HanaBrce_CV.pdf" class="btn btn--primary">Moj CV</a>
-                <!-- </div> -->
-            </div>
-
-        </div> <!-- end about-me -->
-
-    </section> <!-- end s-about -->
-
+          <!--<div class="column large-half tab-full" data-aos="fade-up"> -->
+          <a href="images/HanaBrce_CV.pdf" class="btn btn--primary">Moj CV</a>
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- end about-me -->
+    </section>
+    <!-- end s-about -->
 
     <!-- contact
     ================================================== -->
     <section id="contact" class="s-contact ss-dark target-section">
+      <div class="row heading-block" data-aos="fade-up">
+        <div class="column large-full">
+          <h2 class="section-heading">Kontakt</h2>
+        </div>
+      </div>
 
-        <div class="row heading-block" data-aos="fade-up">
-            <div class="column large-full">
-                <h2 class="section-heading">Kontakt</h2>
-            </div>
+      <div class="row contact-main" data-aos="fade-up">
+        <div class="column large-full">
+          <p class="contact-email">
+            <a href="mailto:#hana.brce@gmail.com">hana.brce@gmail.com</a>
+          </p>
+
+          <p class="section-desc">
+            Za več infomacij ali nadaljno sodelovanje sem vedno na voljo
+            <a href="mailto:#hana.brce@gmail.com">na mailu</a>.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="row contact-infos"
+        data-aos="fade-up"
+        data-aos-anchor=".contact-main"
+      >
+        <div class="column large-5 medium-full contact-phone">
+          <h4>Telefonska številka</h4>
+          <a href="tel:197-543-2345">+386 41 281 322</a>
         </div>
 
-        <div class="row contact-main" data-aos="fade-up">
-            <div class="column large-full">
-                <p class="contact-email">
-                    <a href="mailto:#hana.brce@gmail.com">hana.brce@gmail.com</a>
-                </p>
-
-                <p class="section-desc">
-                Za več infomacij ali nadaljno sodelovanje sem vedno na voljo
-                <a href="mailto:#hana.brce@gmail.com">na mailu</a>.
-                </p>
-            </div>
-        </div>
-
-        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
-
-            <div class="column large-5 medium-full contact-phone">
-                <h4>Telefonska številka</h4>
-                <a href="tel:197-543-2345">+386 41 281 322</a>
-            </div>
-
-            <!--
+        <!--
             <div class="column large-7 medium-full contact-social">
                 <h4>Social</h4>
                 <ul>
@@ -387,72 +473,92 @@
                 </ul>
             </div>
             -->
-
-        </div> <!-- end contact-infos -->
-
-    </section> <!-- end s-contact -->
-
+      </div>
+      <!-- end contact-infos -->
+    </section>
+    <!-- end s-contact -->
 
     <!-- footer
     ================================================== -->
     <footer>
-        <div class="row">
-            <div class="column large-full ss-copyright">
-                <span>© Copyright Epitome 2019</span> 
-                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
-            </div>            
-
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"></a>
-            </div>
+      <div class="row">
+        <div class="column large-full ss-copyright">
+          <span>© Copyright Epitome 2019</span>
+          <span
+            >Design by
+            <a href="https://www.styleshout.com/">StyleShout</a></span
+          >
         </div>
-    </footer>
 
+        <div class="ss-go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- photoswipe background
     ================================================== -->
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
         </div>
 
-    </div><!-- end photoSwipe background -->
-
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end photoSwipe background -->
 
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-</body>
+  </body>
+</html>
